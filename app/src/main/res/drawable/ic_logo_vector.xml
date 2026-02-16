@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="512dp" android:height="512dp" android:viewportWidth="512" android:viewportHeight="512">
+
+    <!-- Logo Content (Foreground) Scaled to 0.5 to fit safe zone -->
+    <group android:name="logo_content" android:pivotX="256" android:pivotY="256" android:scaleX="0.5" android:scaleY="0.5">
+
+        <!-- Bowl Body -->
+        <path android:name="bowl_body" android:fillColor="#00000000" android:strokeColor="#212121" android:strokeWidth="24" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M 128,320 C 128,390 170,448 256,448 C 342,448 384,390 384,320 L 128,320 Z" />
+
+        <!-- Bowl Base -->
+        <path android:name="bowl_base" android:fillColor="#00000000" android:strokeColor="#212121" android:strokeWidth="24" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M 200,448 L 200,464 L 312,464 L 312,448" />
+
+        <!-- Steam (Left Lobe) -->
+        <path android:name="steam_left" android:fillColor="#00000000" android:strokeColor="#212121" android:strokeWidth="20" android:strokeLineCap="round" android:pathData="M 180,280 Q 180,200 150,180 Q 130,160 160,130 Q 200,100 230,130" />
+
+        <!-- Steam (Right Lobe) -->
+        <path android:name="steam_right" android:fillColor="#00000000" android:strokeColor="#212121" android:strokeWidth="20" android:strokeLineCap="round" android:pathData="M 332,280 Q 332,200 362,180 Q 382,160 352,130 Q 312,100 282,130" />
+
+        <!-- Steam (Center Connection) -->
+        <path android:name="steam_center" android:fillColor="#00000000" android:strokeColor="#212121" android:strokeWidth="20" android:strokeLineCap="round" android:pathData="M 256,260 Q 256,200 256,160 Q 256,120 256,100 Q 256,60 220,60 Q 200,60 200,80" />
+
+        <!-- Steam Detail -->
+        <path android:name="steam_detail" android:fillColor="#00000000" android:strokeColor="#212121" android:strokeWidth="20" android:strokeLineCap="round" android:pathData="M 230,130 Q 256,150 282,130" />
+
+    </group>
+
+</vector>
